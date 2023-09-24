@@ -12,6 +12,7 @@ h1, p{
     text-transform: uppercase;
 } */
 /* . for class */
+
 .uppercase{
     text-transform: uppercase;
 }
@@ -19,6 +20,15 @@ h1, p{
 .cursive{
     font-family: cursive;
 }
+
+#site-desc p{
+    color: red;
+}
+
+#blog-header:hover{
+    color: orange;
+}
+
 /* # for id */
 #blog-title{
     color: #314831;
