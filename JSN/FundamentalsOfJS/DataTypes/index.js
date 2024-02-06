@@ -1,7 +1,5 @@
 //primitive datatypes
 
-const { type } = require("os");
-
 //numbers(64bit)
 let num=20;
 console.log(typeof 20);
@@ -17,7 +15,7 @@ console.log(typeof nickName);
 
 //boolean
 let bool=false;
-confirm.log(typeof bool);
+console.log(typeof bool);
 
 //undefined
 let a;
