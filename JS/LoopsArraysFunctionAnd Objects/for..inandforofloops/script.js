@@ -14,3 +14,4 @@ const students=[
 for(let i in students){
     console.log(`Roll No ${i+1}: ${students[i]}`);
 }
+// null
