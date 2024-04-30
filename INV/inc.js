@@ -138,5 +138,17 @@
 // [a,b]=[b,a];
 // console.log(a,b);
 
-let nestedArray=["orange",["apple","banana",["grape","mango"]],"peach"];
-let [first,[,,[third]]]=nestedArray;
+// let nestedArray=["orange",["apple","banana",["grape","mango"]],"peach"];
+// let [first,[,,[third]]]=nestedArray;
+
+function convertMinutesToHours(totalMinutes) {
+    const hours = /*Math.floor*/(totalMinutes / 60);
+    const remainingMinutes = totalMinutes % 60;
+    const remainingHours = remainingMinutes / 60;
+    return { hours: hours /*+ remainingHours*/, minutes: remainingMinutes };
+}
+
+// Example usage:
+const totalMinutes = 110;
+const { hours, minutes } = convertMinutesToHours(totalMinutes);
+console.log(`${totalMinutes} minutes is equal to ${hours} hours and ${minutes} minutes.`);

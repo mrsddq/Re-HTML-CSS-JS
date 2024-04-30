@@ -1,4 +1,4 @@
-const input=[3256,23,34,56,36,7935,13,75,12,34,45,56,76,78,89,90];
+const input=[3256,23,34,56,36,7935,13,75,10,12,34,45,76,78,89,22,90];
 
 const evenNumbers=[];
 
@@ -8,9 +8,9 @@ for(let i of input){
     }
     // console.log(i);
     evenNumbers.push(i);
-    if(evenNumbers.length===5){
+    if(evenNumbers.length===10){
         break;
     }
-    console.log(evenNumbers);
+    // console.log(evenNumbers);
 }
 console.log(evenNumbers);
